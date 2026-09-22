@@ -44,6 +44,26 @@ La carpeta [`docs/`](docs) contiene las capturas de pantalla que documentan cada
 
 En conjunto, estas capturas trazan la ruta completa: **revisar el sistema → instalar y validar herramientas → crear el entorno virtual → escribir y correr el primer script → versionar el proyecto con Git → publicarlo en GitHub**.
 
+## 🐳 Ejecutar con Docker
+
+El proyecto incluye un [`Dockerfile`](Dockerfile) basado en `python:3.9.6-slim` para correr el script sin instalar Python localmente. Primero se construye la imagen (`build`) y después se levanta el contenedor (`run`).
+
+### Linux / macOS (con `make`)
+
+```bash
+make build
+make run
+```
+
+### Windows (manual, sin `make`)
+
+En Windows no viene `make` instalado por defecto, así que los comandos de Docker se ejecutan directamente:
+
+```bash
+docker build -t automatizacion-redes .
+docker run --rm automatizacion-redes
+```
+
 ## 📄 Licencia
 
 Este proyecto está bajo la licencia [MIT](LICENSE).
