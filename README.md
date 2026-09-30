@@ -8,11 +8,12 @@ Proyecto de práctica para documentar, paso a paso, la configuración de un ento
 - [Python 3.x](https://www.python.org/downloads/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Git](https://git-scm.com/)
+- [VMware Workstation Pro](https://www.vmware.com/) y GNS3 GUI / GNS3 VM
 - Cuenta de [GitHub](https://github.com/)
 
 ## 🚀 Hola Mundo
 
-El punto de partida del proyecto es [`main.py`](main.py), un script mínimo que imprime un saludo por consola:
+El punto de partida del proyecto es [`main.py`](src/main.py), un script mínimo que imprime un saludo por consola:
 
 ```python
 #   My first Hello World
@@ -41,6 +42,13 @@ La carpeta [`docs/`](docs) contiene las capturas de pantalla que documentan cada
 | 6 | [`06-git.png`](docs/06-git.png) | Verificación de la instalación de Git con `git --version`. |
 | 7 | [`07-git-identidad.png`](docs/07-git-identidad.png) | Configuración de la identidad de Git (`user.name` y `user.email`) usada para firmar los commits. |
 | 8 | [`08-github.png`](docs/08-github.png) | Conexión del repositorio local con GitHub (`git remote add origin`) y primer `git push` hacia la rama `main`. |
+| 9 | [`09-postman.png`](docs/09-postman.png) | Configuración y pruebas de API utilizando Postman para la automatización de servicios de red. |
+| 10 | [`10-openconnect.png`](docs/10-openconnect.png) | Establecimiento y verificación de la conexión VPN segura mediante OpenConnect. |
+| 11 | [`11-docker.png`](docs/11-docker.png) | Comprobación del funcionamiento de contenedores y entornos aislados con Docker Desktop. |
+| 12 | [`12-gns3.png`](docs/12-gns3.png) | Interfaz gráfica de GNS3 GUI ejecutándose de manera local para el diseño de topologías. |
+| 14 | [`14-vmware.png`](docs/14-vmware.png) | VMware Workstation Pro abierto con la máquina virtual GNS3 VM listada en el entorno de virtualización. |
+| 15 | [`15-importacion-gns3-vm.png`](docs/15-importacion-gns3-vm.png) | Proceso de importación de la máquina virtual de GNS3 en formato `.ova` hacia VMware Workstation. |
+| 16 | [`16-integracion-gns3.png`](docs/16-integracion-gns3.png) | Enlace exitoso entre GNS3 GUI y la GNS3 VM, confirmando los servidores activos con indicadores verdes. |
 
 En conjunto, estas capturas trazan la ruta completa: **revisar el sistema → instalar y validar herramientas → crear el entorno virtual → escribir y correr el primer script → versionar el proyecto con Git → publicarlo en GitHub**.
 
